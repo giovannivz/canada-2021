@@ -11,7 +11,7 @@ download_canada() {
 
     mkdir -p "./$prefix"
     echo "$url" "$cookie" "$filename"
-    curl -b "$cookie" -c /tmp/cookies.txt --compressed --connect-timeout 10 -m 10 -s "$url" | grep -v '_VIEWSTATE' > "$prefix/$filename"
+    curl -b "$cookie" -c /tmp/cookies.txt --compressed --connect-timeout 10 -m 10 -s "$url" | grep -v '_VIEWSTATE' | sed -e 's/\t//g' > "$prefix/$filename"
 }
 
 gitupload() {
