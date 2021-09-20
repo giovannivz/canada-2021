@@ -1,17 +1,9 @@
-
-
 <!DOCTYPE html>
 <html id="oHTMLTag" lang="en">
 <head id="Head1"><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=8" /><meta name="dcterms.creator" content="Elections Canada" /><meta name="dcterms.service" content="Elections" /><meta name="dcterms.accessRights" content="2" /><title>Election Night Results - Electoral Districts</title><link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
-    
-   
-     
-    
     <script src="//assets.adobedtm.com/be5dfd287373/bb72b7edd313/launch-e34f760eaec8.min.js"></script>
 <link href="css/normalize.css" rel="stylesheet" type="text/css" /><link href="css/general.css" rel="stylesheet" type="text/css" /><link href="css/ctl.css" rel="stylesheet" type="text/css" /><link href="css/mobile.css" rel="stylesheet" type="text/css" /><link href="css/electoraldistricts.css" rel="stylesheet" type="text/css" /><meta name="dcterms.language" content="eng" /><meta name="dcterms.title" content="Election Night Results - Electoral Districts" /><meta name="description" content="Election results by electoral district, for federal elections in Canada." /><meta name="keywords" content="federal election results, voting results, election night results, election result, elections canada, validated election results, preliminary election results, judicial recounts, election results by electoral district" /><meta name="author" content="© 2013 - Élections Canada" /></head>
 <body>
-
     <div id="toTop"></div>
     <div class="accessAlt">
         <p class="hidden_info">
@@ -25,10 +17,8 @@
         <a title="Go to footer" href="#pagefooter" class="hidden_info">
             Go to footer</a>
     </div>
-
     <header>
         <div id="header" class="content-wrapper">
-
             <!-- Top -->
             <div id="top">
                 <div id="top_left">
@@ -58,16 +48,11 @@
             </div>
         </div>
     </header>
-
     <div id="content">
-        
     <section class="featured">
         <div class="content-wrapper">
-            
         </div>
     </section>
-
-
         <section class="content-wrapper main-content clear-fix">
             <div id="divBodyHeader">
                 <!-- <div id="left_content">
@@ -78,7 +63,6 @@
                 <div id="right_content">
                     <!-- Summary -->
                     <div id="summary">
-
                         <div id="bottom_summary">
                             <p>
                                 Next refresh in <span id="timer" class="timer" role="timer">90</span> seconds or <a href="https://enr.elections.ca/ElectoralDistricts.aspx?lang=e" title="Click here to refresh the page now to see the latest results.">refresh now</a>.
@@ -89,10 +73,8 @@
                                 </p>
                             </div>
                         </div>
-
                         <!-- Section Buttons -->
                         <div id="section_buttons" role="navigation">
-                            
                             <nav>
                                 <ul id="nav">
                                     <li>
@@ -111,24 +93,17 @@
                                 </ul>
                             </nav>
                         </div>
-
                         <form method="post" action="./ElectoralDistricts.aspx?lang=e" id="FrmSearch" title="Search / Results Form">
 <div class="aspNetHidden">
 </div>
-
-
 <script src="/ScriptResource.axd?d=ubtTJXNUDSwr-bjwcpBgogrbzZgXMC_S9XeYJuFqyrMaVS7Rzg8QXdQ99jtT3EQkQ1zJlanJJ3WxItNN8qn8UGaeopNegXJJrc-VKcs2VGJFGAD1oyB5kX284dl-1WO5rqy99RvmiTeno35DEmgz7sSmH9bbAgJKo3C7sE7EuwXircyUnK2Eqmvko_keZbRaaYbkwBRoBKpzYTPxMAXHvHWH3dzuKnJJ5T_ddQIuF0ufO3j84kSJRMuOYAMO6VEI_zfls6yH8pNbTQGWlBHcPg2" type="text/javascript"></script>
-                            
-
                             <script type="text/javascript">
                                 Sys.Application.add_init(function () {
                                     Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
                                 });
-
                                 function EndRequestHandler(sender, args) {
                                     cellClasses();
                                     tabIndex();
-
                                     if (document.getElementById("Messages_ValidationSummary1") != null) {
                                         if ((document.getElementById("Messages_ValidationSummary1").innerHTML.replace("\n\n", "") != "")
                                             || getCookie("control_panel") == "true") {
@@ -136,16 +111,13 @@
                                         }
                                     }
                                 }
-
                             </script>
-
                             <div id="national_data_block">
                                 <div id="top_summary">
                                     <p>
                                         Required for majority: 170
                                     </p>
                                 </div>
-
                                 <!-- Table summary -->
                                 <div>
 <table id="grdNationalDataBlock">
@@ -161,41 +133,27 @@ National party standing
 </table>
 </div>
                             </div>
-
                             <!-- Message board -->
-                            
-
                             <!-- Control panel -->
                             <a href="javascript:void(0);" id="control_panel_title" onclick="showHide(control_panel)" title="Click here to toggle the search controls box.">
                                 Search options (click to <span id="ToOpen">expand</span><span id="ToClose"> collapse</span>)
                                 <span class="ic"></span>
                             </a>
-
                             <div id="control_panel">
-
                                 <!-- Messages -->
-                                
     <div id="Messages_updMessages">
-
             <div></div>
-        
 </div>
-
-
                                 <div id="updSearchControls">
-
                                         <!-- row -->
                                         <div id="divRowSearchType" class="row">
-                                            
                                             <div id="divSearchType" class="col">
                                                 <label for="cboSearchTypes" id="lblChooseSearchOption">1 - Choose a search option: </label>
-                                                
                                                 <select name="ctl00$cboSearchTypes" id="cboSearchTypes" class="cbo" title="Choose a search:">
 <option value="-1">Choose a search:</option>
 <option value="ByPostalCode">Search by postal code</option>
 <option value="ByCandidateName">Search by candidate name</option>
 <option value="ByElectoralDistrictName">Search by electoral district name</option>
-
 </select>
                                                 <div class="clearer"></div>
                                             </div>
@@ -204,14 +162,12 @@ National party standing
                                                 <input name="ctl00$txtSearchCriteria" type="text" maxlength="50" id="txtSearchCriteria" class="txt" title="Search criteria" />
                                                 <div class="clearer"></div>
                                             </div>
-
                                             <div id="divButtonTextBoxCritreria" class="divButton col">
                                                 <input type="submit" name="ctl00$cmdAddTextBoxCritreria" value="Display result" id="cmdAddTextBoxCritreria" class="cmd" />
                                                 <div class="clearer"></div>
                                             </div>
                                             <div class="clearer"></div>
                                         </div>
-
                                         <!-- row -->
                                         <div id="divRowOR" class="row">
                                             <div id="div_or">
@@ -219,11 +175,8 @@ National party standing
                                                     <span id="litOR">OR</span></span>
                                             </div>
                                         </div>
-
                                         <!-- row -->
                                         <div class="row">
-
-                                            
                                             <div id="divProvinces" class="col">
                                                 <label for="cboProvinces" id="lblChooseProvince">1 - Choose a province:</label>
                                                 <select name="ctl00$cboProvinces" id="cboProvinces" class="cbo" title="Search by province or territory">
@@ -241,28 +194,17 @@ National party standing
 <option value="24">Quebec</option>
 <option value="47">Saskatchewan</option>
 <option value="60">Yukon</option>
-
 </select>
                                                 <div class="clearer"></div>
                                             </div>
-
-                                            
                                             <div id="divElectoralDistrict" class="col">
                                                 <label for="cboElectoralDistricts" id="lblChooseElectoralDistrict">2 - Choose an electoral district:</label>
                                                 <select name="ctl00$cboElectoralDistricts" id="cboElectoralDistricts" class="cbo" title="Choose an electoral district">
 <option value="-1">
 Choose an electoral district</option>
-
 </select>
                                                 <div class="clearer"></div>
                                             </div>
-
-                                            
-                                            
-
-                                            
-                                            
-
                                             <div id="divButtonSelectCritreria" class="divButton col">
                                                 <input type="submit" name="ctl00$cmdAddSelectCritreria" value="Display result" id="cmdAddSelectCritreria" title="Display result" class="cmd" />
                                                 <div class="clearer"></div>
@@ -271,71 +213,43 @@ Choose an electoral district</option>
                                             <p>
                                                 <span id="lblMaxNumberOfResults">The electoral district results will appear below. You can choose to view up to four.</span>
                                             </p>
-
                                         </div>
-
-                                    
 </div>
                             </div>
-
                             <!-- Refresh settings -->
-                            
-
                             <!-- Judicial Recount text -->
-                            
-
                             <div id="bottom_content">
                                 <!-- Results -->
-                                
-    
         <div id="MainContent_updGrid">
-
-
             <div id="MainContent_uppLoader" style="visibility:hidden;display:block;">
-
                     <div id="divHourGlass2" style="position:absolute; float: right; width:150em;">
                         <img src="img/ajax-loader_whitebg.gif" id="MainContent_imgLoader2" />
                     </div>
-                
 </div>
-
             <div id="MainContent_UpdateProgress1" style="visibility:hidden;display:block;">
-
                     <div id="divHourGlass" style="position:absolute; float: right; width:150em;">
                         <img src="img/ajax-loader_whitebg.gif" id="MainContent_imgLoader" />
                     </div>
-                
 </div>
-
             <div id="MainContent_divResultsChoice"></div>
             <div id="MainContent_divResultsSet"><div id="divResultucElectoralDistrictResult2108">
     <div class="results_top">
         <h2 id="h2ucElectoralDistrictResult2108" title="Search grid title">
-            
             <span id="h3ucElectoralDistrictResult2108" title="Search grid type">
                 <span id="lblTableTypeucElectoralDistrictResult2108" class="results_type">Preliminary Results</span></span>
         </h2>
-        
         <div class="results_toolbar">
             <div class="floatRightbuttons">
                 <p class="hidden_info">
                     <span id="lblClosingResultsucElectoralDistrictResult2108">Click on the Close button with your spacebar if you no longer wish to consult the results in the following table.</span>
                 </p>
-
-                
                 <input type="submit" name="ctl00$MainContent$ucElectoralDistrictResult2108$btnClose" value="Close" id="ctl00_MainContent_ucElectoralDistrictResult2108_btnClose" title="Close" class="btnClose smaller" />
                 <div class="clearer"></div>
-
-                
-                
-                
                 <div class="clearer"></div>
             </div>
             <div class="clearer"></div>
         </div>
     </div>
-
-    
     <div>
 <table class="tblResults" id="grdResultsucElectoralDistrictResult2108">
 <caption>
@@ -369,8 +283,6 @@ Choose an electoral district</option>
 </tr>
 </table>
 </div>
-
-    
     <div class="results_bottom">
         <div id="divPollsReportingucElectoralDistrictResult2108" class="divPollsReporting">
             <p class="lblPolls">
@@ -383,9 +295,6 @@ Choose an electoral district</option>
                 </span>
             </p>
         </div>
-
-
-
         <div id="divVoterTurnoutucElectoralDistrictResult2108" class="divVoterTurnout">
             <p class="lblVoter">
                 <span class="label">
@@ -410,7 +319,6 @@ Choose an electoral district</option>
                 79,607
             </p>
         </div>
-        
         <div id="last_updateducElectoralDistrictResult2108" class="last_updated desktop">
             <p class="lblLastUpdate">
                 <span class="label">
@@ -419,37 +327,26 @@ Choose an electoral district</option>
                 19:00 ET
             </p>
         </div>
-        
     </div>
 </div>
 <div id="divResultucElectoralDistrictResult2109">
     <div class="results_top">
         <h2 id="h2ucElectoralDistrictResult2109" title="Search grid title">
-            
             <span id="h3ucElectoralDistrictResult2109" title="Search grid type">
                 <span id="lblTableTypeucElectoralDistrictResult2109" class="results_type">Preliminary Results</span></span>
         </h2>
-        
         <div class="results_toolbar">
             <div class="floatRightbuttons">
                 <p class="hidden_info">
                     <span id="lblClosingResultsucElectoralDistrictResult2109">Click on the Close button with your spacebar if you no longer wish to consult the results in the following table.</span>
                 </p>
-
-                
                 <input type="submit" name="ctl00$MainContent$ucElectoralDistrictResult2109$btnClose" value="Close" id="ctl00_MainContent_ucElectoralDistrictResult2109_btnClose" title="Close" class="btnClose smaller" />
                 <div class="clearer"></div>
-
-                
-                
-                
                 <div class="clearer"></div>
             </div>
             <div class="clearer"></div>
         </div>
     </div>
-
-    
     <div>
 <table class="tblResults" id="grdResultsucElectoralDistrictResult2109">
 <caption>
@@ -473,8 +370,6 @@ Choose an electoral district</option>
 </tr>
 </table>
 </div>
-
-    
     <div class="results_bottom">
         <div id="divPollsReportingucElectoralDistrictResult2109" class="divPollsReporting">
             <p class="lblPolls">
@@ -487,9 +382,6 @@ Choose an electoral district</option>
                 </span>
             </p>
         </div>
-
-
-
         <div id="divVoterTurnoutucElectoralDistrictResult2109" class="divVoterTurnout">
             <p class="lblVoter">
                 <span class="label">
@@ -514,7 +406,6 @@ Choose an electoral district</option>
                 83,045
             </p>
         </div>
-        
         <div id="last_updateducElectoralDistrictResult2109" class="last_updated desktop">
             <p class="lblLastUpdate">
                 <span class="label">
@@ -523,37 +414,26 @@ Choose an electoral district</option>
                 19:00 ET
             </p>
         </div>
-        
     </div>
 </div>
 <div id="divResultucElectoralDistrictResult2110">
     <div class="results_top">
         <h2 id="h2ucElectoralDistrictResult2110" title="Search grid title">
-            
             <span id="h3ucElectoralDistrictResult2110" title="Search grid type">
                 <span id="lblTableTypeucElectoralDistrictResult2110" class="results_type">Preliminary Results</span></span>
         </h2>
-        
         <div class="results_toolbar">
             <div class="floatRightbuttons">
                 <p class="hidden_info">
                     <span id="lblClosingResultsucElectoralDistrictResult2110">Click on the Close button with your spacebar if you no longer wish to consult the results in the following table.</span>
                 </p>
-
-                
                 <input type="submit" name="ctl00$MainContent$ucElectoralDistrictResult2110$btnClose" value="Close" id="ctl00_MainContent_ucElectoralDistrictResult2110_btnClose" title="Close" class="btnClose smaller" />
                 <div class="clearer"></div>
-
-                
-                
-                
                 <div class="clearer"></div>
             </div>
             <div class="clearer"></div>
         </div>
     </div>
-
-    
     <div>
 <table class="tblResults" id="grdResultsucElectoralDistrictResult2110">
 <caption>
@@ -579,8 +459,6 @@ Choose an electoral district</option>
 </tr>
 </table>
 </div>
-
-    
     <div class="results_bottom">
         <div id="divPollsReportingucElectoralDistrictResult2110" class="divPollsReporting">
             <p class="lblPolls">
@@ -593,9 +471,6 @@ Choose an electoral district</option>
                 </span>
             </p>
         </div>
-
-
-
         <div id="divVoterTurnoutucElectoralDistrictResult2110" class="divVoterTurnout">
             <p class="lblVoter">
                 <span class="label">
@@ -620,7 +495,6 @@ Choose an electoral district</option>
                 82,057
             </p>
         </div>
-        
         <div id="last_updateducElectoralDistrictResult2110" class="last_updated desktop">
             <p class="lblLastUpdate">
                 <span class="label">
@@ -629,37 +503,26 @@ Choose an electoral district</option>
                 19:00 ET
             </p>
         </div>
-        
     </div>
 </div>
 <div id="divResultucElectoralDistrictResult2111">
     <div class="results_top">
         <h2 id="h2ucElectoralDistrictResult2111" title="Search grid title">
-            
             <span id="h3ucElectoralDistrictResult2111" title="Search grid type">
                 <span id="lblTableTypeucElectoralDistrictResult2111" class="results_type">Preliminary Results</span></span>
         </h2>
-        
         <div class="results_toolbar">
             <div class="floatRightbuttons">
                 <p class="hidden_info">
                     <span id="lblClosingResultsucElectoralDistrictResult2111">Click on the Close button with your spacebar if you no longer wish to consult the results in the following table.</span>
                 </p>
-
-                
                 <input type="submit" name="ctl00$MainContent$ucElectoralDistrictResult2111$btnClose" value="Close" id="ctl00_MainContent_ucElectoralDistrictResult2111_btnClose" title="Close" class="btnClose smaller" />
                 <div class="clearer"></div>
-
-                
-                
-                
                 <div class="clearer"></div>
             </div>
             <div class="clearer"></div>
         </div>
     </div>
-
-    
     <div>
 <table class="tblResults" id="grdResultsucElectoralDistrictResult2111">
 <caption>
@@ -687,8 +550,6 @@ Choose an electoral district</option>
 </tr>
 </table>
 </div>
-
-    
     <div class="results_bottom">
         <div id="divPollsReportingucElectoralDistrictResult2111" class="divPollsReporting">
             <p class="lblPolls">
@@ -701,9 +562,6 @@ Choose an electoral district</option>
                 </span>
             </p>
         </div>
-
-
-
         <div id="divVoterTurnoutucElectoralDistrictResult2111" class="divVoterTurnout">
             <p class="lblVoter">
                 <span class="label">
@@ -728,7 +586,6 @@ Choose an electoral district</option>
                 91,618
             </p>
         </div>
-        
         <div id="last_updateducElectoralDistrictResult2111" class="last_updated desktop">
             <p class="lblLastUpdate">
                 <span class="label">
@@ -737,36 +594,21 @@ Choose an electoral district</option>
                 19:00 ET
             </p>
         </div>
-        
     </div>
 </div>
 </div>
-        
 </div>
-
-
                             </div>
-
-                        
 <div class="aspNetHidden">
-
 </div></form>
-
                     </div>
                 </div>
             </div>
-
-
-
         </section>
-
         <!-- Downloads -->
         <div id="downloads">
-            
-            
         </div>
     </div>
-
     <footer id="pagefooter">
         <div class="content-wrapper">
             <!-- Bottom -->
@@ -791,11 +633,9 @@ Choose an electoral district</option>
             </div>
         </div>
     </footer>
-
      <script type="text/javascript">
         _satellite.pageBottom();
     </script>
-
     <script type="text/javascript">
         initPanels();
     </script>
